@@ -23,25 +23,46 @@
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "石家庄市第二中学",
+      "area": "省理科实验班 物化生",
+      "studyType": "高中",
+      "startDate": "2020",
+      "endDate": "2023",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "南京航空航天大学/NanJing University of Aeronautics and Astronautics",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
+      "institution": "南京航空航天大学长空学院",
+      "area": "长空创新班（工科试验班）",
+      "studyType": "本科",
       "startDate": "2023",
       "endDate": "2027",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "编程语言",
+      "keywords": ["C/C++", "Python", "MATLAB"]
+    },
+    {
+      "name": "嵌入式开发",
+      "keywords": ["STM32", "Arduino", "MPU6050"]
+    },
+    {
+      "name": "机器人技术",
+      "keywords": ["ROS2", "机械臂控制", "自主导航"]
+    },
+    {
+      "name": "Web开发",
+      "keywords": ["HTML/CSS", "JavaScript", "Jekyll"]
+    },
+    {
+      "name": "其他技能",
+      "keywords": ["Linux", "Git", "LaTeX"]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
@@ -75,34 +96,56 @@
       "summary": "This paper is about fixing template issue #693."
     }
   ],
-  "presentations": [
+  "presentations": [],
+  "projects": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "三自由度稳定云台",
+      "category": "project",
+      "date": "2023-2024",
+      "location": "Nanjing, China",
+      "description": "使用MPU6050读取数据并解算姿态，实时控制保持末端稳定。应用于嵌入式系统和运动控制领域。"
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "智能投递机器人",
+      "category": "project",
+      "date": "2024",
+      "location": "Nanjing, China",
+      "description": "设计并实现了一款智能投递机器人，具备自主导航和避障能力。"
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
+      "name": "机械臂物料搬运小车",
+      "category": "project",
+      "date": "2024",
+      "location": "Nanjing, China",
+      "description": "开发了一套机械臂物料搬运系统，实现了自动化物料抓取和搬运功能。"
     },
     {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "机械臂三子棋游戏装置",
+      "category": "project",
+      "date": "2024",
+      "location": "Nanjing, China",
+      "description": "设计了一款基于机械臂的三子棋游戏装置，具备自动下棋和人机对战功能。"
+    },
+    {
+      "name": "RoboMaster2025机甲大师赛 工程机器人",
+      "category": "project",
+      "date": "2025",
+      "location": "Nanjing, China",
+      "description": "参与RoboMaster2025机甲大师赛，负责工程机器人的设计和开发。"
+    },
+    {
+      "name": "卫惯组合导航在单片机上的部署",
+      "category": "project",
+      "date": "2024",
+      "location": "Nanjing, China",
+      "description": "实现了卫惯组合导航算法在单片机上的部署，提高了导航系统的精度和可靠性。"
+    },
+    {
+      "name": "多约束的机械臂控制规划",
+      "category": "project",
+      "date": "2024",
+      "location": "Nanjing, China",
+      "description": "研究并实现了多约束条件下的机械臂控制规划算法，优化了机械臂的运动轨迹。"
     }
   ],
   "teaching": [
