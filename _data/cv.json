@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
+    "name": "丁楚原",
     "email": "none@example.org",
     "phone": "",
     "website": "https://academicpages.github.io",
     "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "school": "NanJing University of Aeronautics and Astronautics",
+      "College": "Changkong College",
+      "city": "NanJing",
+      "countryCode": "CN",
       "region": ""
     },
     "profiles": [
@@ -47,15 +47,6 @@
       "studyType": "",
       "startDate": "",
       "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
       "gpa": null,
       "courses": []
     }
