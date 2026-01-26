@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "丁楚原",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "丁楚原/Ding C.Y.",
+    "email": "052310228@nuaa.edu.cn",
+    "phone": "17731166619",
+    "website": "http://blog.happyad.top",
+    "summary": "",
     "location": {
-      "school": "NanJing University of Aeronautics and Astronautics",
+      "school": "",
       "College": "Changkong College",
       "city": "NanJing",
       "countryCode": "CN",
@@ -14,20 +14,10 @@
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
-      }
+        "username": "happyadd",
+        "url": "https://github.com/happyadd"
+      }1
     ]
   },
   "work": [],
@@ -42,11 +32,11 @@
       "courses": []
     },
     {
-      "institution": "GitHub University",
+      "institution": "南京航空航天大学/NanJing University of Aeronautics and Astronautics",
       "area": "M.S. in Jekyll",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "startDate": "2023",
+      "endDate": "2027",
       "gpa": null,
       "courses": []
     }
