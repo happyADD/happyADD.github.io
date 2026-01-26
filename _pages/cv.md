@@ -26,6 +26,10 @@ redirect_from:
 - 卫惯组合导航在单片机上的部署
 - 多约束的机械臂控制规划
 
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+
 技术栈/Skills
 ======
 - C/C++ ROS2 开发
@@ -42,9 +46,7 @@ Publications
   
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+
   
 Teaching
 ======
