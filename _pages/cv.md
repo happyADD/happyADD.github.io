@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<!-- {% include base_path %} -->
 
 教育经历/Education
 ======
@@ -16,8 +16,7 @@ redirect_from:
 
 项目经历/Project Experience
 ======
-- [三自由度稳定云台](https://happyadd.github.io/projects/云台) #嵌入式 #运动控制  
-	- MPU6050读取数据并解算姿态，实时控制保持末端稳定。
+- 三自由度稳定云台
 - 投篮机器人
 - 智能投递机器人
 - 机械臂物料搬运小车
@@ -44,9 +43,6 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-
   
 Teaching
 ======

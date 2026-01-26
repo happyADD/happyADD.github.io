@@ -186,6 +186,7 @@
   },
   "active": "1e97a0f48f73147a",
   "lastOpenFiles": [
+    "_talks/2012-03-01-talk-1.md",
     "_talks/云台.md",
     "projects/云台.md",
     "projects",
@@ -199,7 +200,6 @@
     "images/profile.png",
     "images/profile.jpg",
     "images/head.jpg",
-    "_pages/archive-layout-with-content.md",
-    "_talks/2012-03-01-talk-1.md"
+    "_pages/archive-layout-with-content.md"
   ]
 }
