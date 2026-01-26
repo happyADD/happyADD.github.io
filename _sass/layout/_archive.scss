@@ -58,12 +58,46 @@
 }
 
 .archive__item-excerpt {
-  margin-top: 0;
-  font-size: $type-size-6;
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
+  font-size: 0.85em;
+  line-height: 1.4;
+  color: var(--global-text-color-light);
 
   & + p {
     text-indent: 0;
   }
+}
+
+/* Project meta items styling */
+.archive__item-meta {
+  margin: 0.3em 0;
+  font-size: 0.8em;
+  line-height: 1.3;
+  color: var(--global-text-color-light);
+}
+
+/* Page meta styling */
+.page__meta {
+  margin: 0.3em 0;
+  font-size: 0.8em;
+  line-height: 1.3;
+}
+
+/* List item spacing */
+.list__item {
+  margin-bottom: 1.5em;
+}
+
+.archive__item {
+  > li {
+    margin-bottom: 0.5em;
+  }
+}
+
+/* Adjust spacing between archive items */
+.archive__item-title {
+  margin-bottom: 0.3em;
 }
 
 .archive__item-teaser {
