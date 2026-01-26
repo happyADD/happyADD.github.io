@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/about.md",
+                "file": "_pages/cv.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "cv"
             }
           }
         ]
@@ -185,11 +185,13 @@
   },
   "active": "1e97a0f48f73147a",
   "lastOpenFiles": [
+    "_pages/cv-json.md",
+    "_pages/cv.md",
+    "_pages/about.md",
     "images/profile.png",
     "images/profile.jpg",
     "images/head.jpg",
     "_pages/archive-layout-with-content.md",
-    "_pages/about.md",
     "_talks/2012-03-01-talk-1.md"
   ]
 }
