@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#嵌入式",
+                "query": "base_path",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,10 +186,11 @@
   },
   "active": "bb630901cb52bebd",
   "lastOpenFiles": [
+    "_pages/404.md",
+    "_pages/cv.md",
     "extract_cv.py",
     "files/大三简历.pdf",
     "_pages/cv-json.md",
-    "_pages/cv.md",
     "_pages/about.md",
     "images/profile.png",
     "images/profile.jpg",
