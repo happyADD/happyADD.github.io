@@ -38,10 +38,43 @@ layout: default
         
         <!-- 项目属性展示 -->
         <div class="project-meta">
-          {% if page.tech_stack %}<p class="project-meta-item"><strong><i class="fa fa-cogs" aria-hidden="true"></i>技术栈:</strong> {{ page.tech_stack }}</p>{% endif %}
-          {% if page.venue %}<p class="project-meta-item"><strong><i class="fa fa-building" aria-hidden="true"></i>机构:</strong> {{ page.venue }}</p>{% endif %}
-          {% if page.location %}<p class="project-meta-item"><strong><i class="fa fa-map-marker" aria-hidden="true"></i>地点:</strong> {{ page.location }}</p>{% endif %}
-          {% if page.roles %}<p class="project-meta-item"><strong><i class="fa fa-user" aria-hidden="true"></i>角色:</strong> {{ page.roles }}</p>{% endif %}
+          <div class="project-meta-grid">
+            {% if page.tech_stack %}
+              <div class="project-meta-item">
+                <span class="project-meta-label">
+                  <i class="fa fa-cogs" aria-hidden="true"></i> 技术栈
+                </span>
+                <span class="project-meta-value">{{ page.tech_stack }}</span>
+              </div>
+            {% endif %}
+            
+            {% if page.venue %}
+              <div class="project-meta-item">
+                <span class="project-meta-label">
+                  <i class="fa fa-building" aria-hidden="true"></i> 机构
+                </span>
+                <span class="project-meta-value">{{ page.venue }}</span>
+              </div>
+            {% endif %}
+            
+            {% if page.location %}
+              <div class="project-meta-item">
+                <span class="project-meta-label">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i> 地点
+                </span>
+                <span class="project-meta-value">{{ page.location }}</span>
+              </div>
+            {% endif %}
+            
+            {% if page.roles %}
+              <div class="project-meta-item">
+                <span class="project-meta-label">
+                  <i class="fa fa-user" aria-hidden="true"></i> 角色
+                </span>
+                <span class="project-meta-value">{{ page.roles }}</span>
+              </div>
+            {% endif %}
+          </div>
         </div>
 
         </header>
