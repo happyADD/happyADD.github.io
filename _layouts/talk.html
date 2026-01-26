@@ -31,16 +31,32 @@ layout: default
             <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
         {% if page.modified %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>日期:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%Y-%m-%d" }}</time></p>
         {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>日期:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time></p>
         {% endif %}
-        {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
+        
+        <!-- 项目属性展示 -->
+        <div class="project-meta">
+          {% if page.tech_stack %}<p class="project-meta-item"><strong><i class="fa fa-cogs" aria-hidden="true"></i>技术栈:</strong> {{ page.tech_stack }}</p>{% endif %}
+          {% if page.venue %}<p class="project-meta-item"><strong><i class="fa fa-building" aria-hidden="true"></i>机构:</strong> {{ page.venue }}</p>{% endif %}
+          {% if page.location %}<p class="project-meta-item"><strong><i class="fa fa-map-marker" aria-hidden="true"></i>地点:</strong> {{ page.location }}</p>{% endif %}
+          {% if page.roles %}<p class="project-meta-item"><strong><i class="fa fa-user" aria-hidden="true"></i>角色:</strong> {{ page.roles }}</p>{% endif %}
+        </div>
 
         </header>
       {% endunless %}
 
+      <!-- 项目简介 -->
+      {% if page.excerpt %}
+        <div class="project-excerpt">
+          <h2>项目简介</h2>
+          <p>{{ page.excerpt | markdownify }}</p>
+        </div>
+      {% endif %}
+
       <section class="page__content" itemprop="text">
+        <h2>详细介绍</h2>
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>

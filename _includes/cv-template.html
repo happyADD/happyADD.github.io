@@ -96,31 +96,6 @@
   </div>
   {% endif %}
   
-  {% if cv.projects.size > 0 %}
-  <!-- Projects -->
-  <div class="cv-section">
-    <h2>项目经历</h2>
-    <ul class="cv-list">
-      {% for project in cv.projects %}
-      <li class="cv-item">
-        <div class="cv-item-header">
-          <div class="cv-item-title">{{ project.name }}</div>
-          <div class="cv-item-date">{{ project.date }}</div>
-        </div>
-        <div class="cv-item-content">
-          {% if project.location %}
-          <div class="cv-item-subtitle">{{ project.location }}</div>
-          {% endif %}
-          {% if project.description %}
-          <div class="cv-item-detail">{{ project.description }}</div>
-          {% endif %}
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
-  
   {% if cv.work.size > 0 %}
   <!-- Work Experience -->
   <div class="cv-section">
