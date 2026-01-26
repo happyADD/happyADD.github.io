@@ -14,22 +14,10 @@ redirect_from:
 * 高中 石家庄市第二中学 省理科实验班 物化生 2020-2023
 * 本科 南京航空航天大学长空学院 长空创新班（工科试验班） 2023-2027
 
-Work experience
+项目经历/Project Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+- 三自由度稳定云台 #嵌入式 #运动控制  
+	- MPU6050读取数据并解算姿态
   
 Skills
 ======
