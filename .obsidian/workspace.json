@@ -184,8 +184,11 @@
       "bases:新建数据库": false
     }
   },
-  "active": "bb630901cb52bebd",
+  "active": "1e97a0f48f73147a",
   "lastOpenFiles": [
+    "projects/云台.md",
+    "projects",
+    "_layouts/projects",
     "_pages/404.md",
     "_pages/cv.md",
     "extract_cv.py",

@@ -16,22 +16,23 @@ redirect_from:
 
 项目经历/Project Experience
 ======
-- 三自由度稳定云台 #嵌入式 #运动控制  
+- [三自由度稳定云台](https://happyadd.github.io/projects/云台) #嵌入式 #运动控制  
 	- MPU6050读取数据并解算姿态，实时控制保持末端稳定。
 - 投篮机器人
 - 智能投递机器人
 - 机械臂物料搬运小车
 - 机械臂三子棋游戏装置
 - RoboMaster2025机甲大师赛 工程机器人
-- 
-Skills
+- 卫惯组合导航在单片机上的部署
+- 多约束的机械臂控制规划
+
+技术栈/Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- C/C++ ROS2 开发
+- 单片机及其PCB电路开发
+- $\LaTeX$
+- MATLAB/Python 仿真/绘图
+- Web/Sever搭建和维护
 
 Publications
 ======
