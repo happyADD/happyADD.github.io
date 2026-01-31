@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: Resume/简历主页
+title: 
 author_profile: true
 redirect_from:
   - /about/
