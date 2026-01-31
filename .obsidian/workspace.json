@@ -185,11 +185,21 @@
   },
   "active": "1e97a0f48f73147a",
   "lastOpenFiles": [
+    "_talks/6-云台.md",
+    "_talks/5-投篮机器人.md",
+    "_talks/4-机械臂三子棋游戏装置.md",
+    "_talks/3-智能投递机器人.md",
+    "e34b0e0ef72d90748ba6781437043dc2.jpeg",
+    "_talks/2-卫惯组合导航在单片机上的部署.md",
+    "_talks/1-RoboMaster2025机甲大师赛 工程机器人.md",
+    "2012-03-01.md",
+    "Pasted image 20260131154210.png",
+    "_pages/cv.md",
+    "_talks/3-机械臂三子棋游戏装置.md",
     "_talks/云台.md",
     "2023-02-01.md",
     "_talks/RoboMaster2025机甲大师赛 工程机器人.md",
     "_talks/机械臂三子棋游戏装置.md",
-    "_pages/cv.md",
     "_talks/卫惯组合导航在单片机上的部署.md",
     "_talks/机械臂物料搬运小车.md",
     "_talks/智能投递机器人.md",
@@ -207,10 +217,8 @@
     "extract_cv.py",
     "files/大三简历.pdf",
     "_pages/cv-json.md",
-    "_pages/about.md",
     "images/profile.png",
     "images/profile.jpg",
-    "images/head.jpg",
-    "_pages/archive-layout-with-content.md"
+    "images/head.jpg"
   ]
 }

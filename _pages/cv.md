@@ -9,6 +9,9 @@ redirect_from:
 
 <!-- {% include base_path %} -->
 
+# 成绩/Scores
+绩点：4.0/5.0，班内主修专业排名1/1，主修专业类比排名4/69。
+CET6成绩591
 教育经历/Education
 ======
 * 高中 石家庄市第二中学 省理科实验班 物化生 2020-2023
@@ -19,28 +22,25 @@ redirect_from:
 {% for post in site.talks reversed %}
   {% include archive-single-talk-cv.html  %}
 {% endfor %}
+其他项目：
+2024年中国机器人大赛投篮机器人，负责电控开发，包含运动控制、气路管理等
+2024年大学生电子设计大赛，机械臂下三子棋装置，包含机械臂控制、屏幕刷新管理等
+2024、2025中国大学生数学建模大赛，2024美国大学生数学建模大赛
 
 技术栈/Skills
 ======
-- C/C++ ROS2 开发
-- 单片机及其PCB电路开发
-- $\LaTeX$
-- MATLAB/Python 仿真/绘图
-- Web/Sever搭建和维护
+- 嵌入式/硬件/控制：熟悉C/C++，能够熟练独立开发单片机、部署控制算法、实现软硬件功能。
+- 算法/视觉/ROS：熟悉ROS2、Ubuntu操作系统，能够熟练独立进行复杂算法的开发部署和数据同步与采集。
+- 科研相关：熟悉Matlab快速实现理论算法、熟练掌握Latex语法和绘图技巧，能够独立进行科研写作。
 
-Publications
+获奖/Awards
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+| 中国机器人大赛2024篮球机器人赛项         | 全国三等奖     | 2024.5  |
+| -------------------------- | --------- | ------- |
+| 2024”华数杯”全国大学生数学建模大赛       | 全国三等奖     | 2024.7  |
+| 中国机器人大赛2024智能投送赛项          | 全国一等奖（冠军） | 2024.11 |
+| RoboMaster机甲大师超级对抗赛区域赛东部赛区 | 全国一等奖（殿军） | 2025.6  |
+| 美国大学省数学建模大赛                | M奖        | 2025.1  |
+| 2024中国大学生数学建模竞赛            | 江苏省二等奖    | 2024.9  |
+
