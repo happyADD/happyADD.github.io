@@ -16,18 +16,9 @@ redirect_from:
 
 项目经历/Project Experience
 ======
-- 三自由度稳定云台
-- 投篮机器人
-- 智能投递机器人
-- 机械臂物料搬运小车
-- 机械臂三子棋游戏装置
-- RoboMaster2025机甲大师赛 工程机器人
-- 卫惯组合导航在单片机上的部署
-- 多约束的机械臂控制规划
-
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+{% for post in site.talks reversed %}
+  {% include archive-single-talk-cv.html  %}
+{% endfor %}
 
 技术栈/Skills
 ======

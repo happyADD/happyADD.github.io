@@ -74,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,9 +185,12 @@
   },
   "active": "1e97a0f48f73147a",
   "lastOpenFiles": [
-    "_talks/卫惯组合导航在单片机上的部署.md",
+    "_talks/云台.md",
+    "2023-02-01.md",
     "_talks/RoboMaster2025机甲大师赛 工程机器人.md",
     "_talks/机械臂三子棋游戏装置.md",
+    "_pages/cv.md",
+    "_talks/卫惯组合导航在单片机上的部署.md",
     "_talks/机械臂物料搬运小车.md",
     "_talks/智能投递机器人.md",
     "_talks/投篮机器人 copy 4.md",
@@ -198,12 +200,10 @@
     "_talks/投篮机器人.md",
     "_includes/archive-single-project.html",
     "_talks/2012-03-01-talk-1.md",
-    "_talks/云台.md",
     "projects/云台.md",
     "projects",
     "_layouts/projects",
     "_pages/404.md",
-    "_pages/cv.md",
     "extract_cv.py",
     "files/大三简历.pdf",
     "_pages/cv-json.md",
