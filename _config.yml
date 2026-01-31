@@ -30,7 +30,7 @@ author:
   location         : "南京航空航天大学"
   uri              : 
   email            : "052310228@nuaa.edu.cn"
-  phone            : 17731166619 # 手机号，例如 "138xxxx8888"
+  # phone            : 17731166619 # 手机号，例如 "138xxxx8888"
   qq               : 872760516 # QQ号，例如 "123456789"
   wechat           : happyAD2027 # 微信号，例如 "happyadd" 
 
