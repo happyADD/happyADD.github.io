@@ -185,6 +185,9 @@
   },
   "active": "1e97a0f48f73147a",
   "lastOpenFiles": [
+    "_talks/intelligent-delivery-robot.md",
+    "_talks/ins-gnss-navigation.md",
+    "_talks/robomaster2025-robot.md",
     "_pages/cv.md",
     "_talks/6-云台.md",
     "_talks/5-投篮机器人.md",
@@ -213,10 +216,8 @@
     "projects/云台.md",
     "projects",
     "_layouts/projects",
-    "_pages/404.md",
     "extract_cv.py",
     "files/大三简历.pdf",
-    "_pages/cv-json.md",
     "images/profile.png",
     "images/profile.jpg",
     "images/head.jpg"
