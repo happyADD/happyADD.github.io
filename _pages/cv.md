@@ -20,9 +20,11 @@ CET6成绩591
 
 项目经历/Project Experience
 ======
+
 {% for post in site.talks reversed %}
   {% include archive-single-talk-cv.html  %}
 {% endfor %}
+
 其他项目：
 - 2024年中国机器人大赛投篮机器人，负责电控开发，包含运动控制、气路管理等
 - 2024年大学生电子设计大赛，机械臂下三子棋装置，包含机械臂控制、屏幕刷新管理等
