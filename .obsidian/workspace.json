@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/cv.md",
+                "file": "_talks/1-RoboMaster2025机甲大师赛 工程机器人.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cv"
+              "title": "1-RoboMaster2025机甲大师赛 工程机器人"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "1e97a0f48f73147a",
   "lastOpenFiles": [
+    "_pages/cv.md",
     "_talks/6-云台.md",
     "_talks/5-投篮机器人.md",
     "_talks/4-机械臂三子棋游戏装置.md",
@@ -194,7 +195,6 @@
     "_talks/1-RoboMaster2025机甲大师赛 工程机器人.md",
     "2012-03-01.md",
     "Pasted image 20260131154210.png",
-    "_pages/cv.md",
     "_talks/3-机械臂三子棋游戏装置.md",
     "_talks/云台.md",
     "2023-02-01.md",
