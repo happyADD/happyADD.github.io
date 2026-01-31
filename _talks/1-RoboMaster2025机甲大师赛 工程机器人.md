@@ -5,7 +5,6 @@ type: Talk
 permalink: /talks/RoboMaster2025机甲大师赛 工程机器人
 venue: RoboMaster2025机甲大师赛
 date: "2025-09-01"
-roles: 视觉兑矿功能负责人
 excerpt: 基于 ROS2+MoveIt2 的自动兑矿系统，实现物体6DoF位姿精准定位与机械臂自主控制
 ---
 # 六自由度物体位姿定位&机械臂规划与控制

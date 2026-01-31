@@ -33,10 +33,10 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h3>
-    {% if post.excerpt %}<a class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</a>{% endif %}
-    {% if post.date %}<a class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%Y-%m-%d' }}</a>{% endif %}
-    {% if post.tech_stack %}<a class="archive__item-meta"><i class="fa fa-cogs" aria-hidden="true"></i> {{ post.tech_stack }}</a>{% endif %}
-    {% if post.location %}<a class="archive__item-meta"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ post.location }}</a>{% endif %}
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%Y-%m-%d' }}</p>{% endif %}
+    {% if post.tech_stack %}<p class="archive__item-meta"><i class="fa fa-cogs" aria-hidden="true"></i> {{ post.tech_stack }}</p>{% endif %}
+    {% if post.location %}<p class="archive__item-meta"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ post.location }}</p>{% endif %}
     </li>
   </article>
 </div>
