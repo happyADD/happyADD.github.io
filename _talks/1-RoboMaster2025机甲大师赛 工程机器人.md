@@ -4,7 +4,7 @@ collection: talks
 type: Talk
 permalink: /talks/RoboMaster2025机甲大师赛 工程机器人
 venue: RoboMaster2025机甲大师赛
-date: 2024夏-2025春
+date: 2024-2025
 roles: 视觉兑矿功能负责人
 excerpt: 基于 ROS2+MoveIt2 的自动兑矿系统，实现物体6DoF位姿精准定位与机械臂自主控制
 ---
