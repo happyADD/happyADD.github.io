@@ -27,8 +27,8 @@ author:
   name             : "丁楚原/Ding C.Y."
   pronouns         : # example: "she/her"  
   bio              : ""
-  location         : "NanJing University of Aeronautics and Astronautics"
-  uri              : # URL
+  location         : "南京航空航天大学"
+  uri              : 
   email            : "052310228@nuaa.edu.cn" 
 
   # Academic websites
@@ -50,7 +50,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/happyADD"
+  github           : "happyADD"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
