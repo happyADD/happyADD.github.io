@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/cv.md",
+                "file": "_talks/3-智能投递机器人.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cv"
+              "title": "3-智能投递机器人"
             }
           }
         ]
@@ -185,20 +185,20 @@
   },
   "active": "1e97a0f48f73147a",
   "lastOpenFiles": [
-    "_pages/about.md",
-    "_pages/cv.md",
+    "_talks/6-云台.md",
     "_talks/3-智能投递机器人.md",
+    "_talks/2-卫惯组合导航在单片机上的部署.md",
+    "_talks/1-RoboMaster2025机甲大师赛 工程机器人.md",
+    "_pages/cv.md",
+    "_pages/about.md",
     "_talks/images/apple-touch-icon-180x180.png",
     "_talks/images/e34b0e0ef72d90748ba6781437043dc2.jpeg",
     "_talks/images",
     "images/Pasted image 20260131154210.png",
     "images/e34b0e0ef72d90748ba6781437043dc2.jpeg",
-    "_talks/2-卫惯组合导航在单片机上的部署.md",
-    "_talks/1-RoboMaster2025机甲大师赛 工程机器人.md",
     "_talks/intelligent-delivery-robot.md",
     "_talks/ins-gnss-navigation.md",
     "_talks/robomaster2025-robot.md",
-    "_talks/6-云台.md",
     "_talks/5-投篮机器人.md",
     "_talks/4-机械臂三子棋游戏装置.md",
     "e34b0e0ef72d90748ba6781437043dc2.jpeg",
