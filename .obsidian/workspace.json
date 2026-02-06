@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/about.md",
+                "file": "_pages/cv.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "cv"
             }
           }
         ]
@@ -185,8 +185,8 @@
   },
   "active": "1e97a0f48f73147a",
   "lastOpenFiles": [
-    "_pages/cv.md",
     "_pages/about.md",
+    "_pages/cv.md",
     "_talks/3-智能投递机器人.md",
     "_talks/6-云台.md",
     "_talks/2-卫惯组合导航在单片机上的部署.md",
